@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn templatedata.wsgi
+web: gunicorn templatedata.wsgi
